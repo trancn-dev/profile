@@ -21,7 +21,7 @@ const colorP2 = env.NUXT_PUBLIC_COLOR_P2 || '#FF9A5C'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2026-05-19',
   css: ['~/assets/css/main.css'],
   app: {
     head: {
