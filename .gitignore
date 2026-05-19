@@ -1,5 +1,5 @@
 node_modules
+node_modules/.cache
 .nuxt
 .output
 .env
-node_modules/.cache
