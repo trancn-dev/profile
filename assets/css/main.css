@@ -1,14 +1,13 @@
 :root {
-  --p:   #FF6B2B;
-  --p2:  #FF9A5C;
-  --glow: rgba(255, 107, 43, .28);
+  /* --p and --p2 setup in .env */
+  --glow: color-mix(in srgb, var(--p) 28%, transparent); /* for glow effects */
   --bg:  #09090F;
   --sf:  #111118;
   --cd:  #16161F;
   --tx:  #EEEEF2;
   --mt:  #7878A0;
   --br:  rgba(255, 255, 255, .07);
-  --bro: rgba(255, 107, 43, .18);
+  --bro: color-mix(in srgb, var(--p) 18%, transparent); /* for borders on hover */
   --fm:  'Space Grotesk', sans-serif;
   --fmo: 'Space Mono', monospace;
   --nh:  68px;
